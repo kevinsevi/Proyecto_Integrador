@@ -27,7 +27,7 @@
                                 <div class="col-lg-10 col-xl-7 mx-auto">
                                     <h3 class="display-4">Login</h3>
                                     <p class="text-muted mb-4">Bienvenido, ingrese sus datos para iniciar sesion.</p>
-                                    <form action="inicio.jsp">
+                                    <form action="reglasDelNegocio/inicio.jsp">
                                         <div class="form-group mb-3">
                                             <input id="inputEmail" type="email" placeholder="Correo" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
                                         </div>
