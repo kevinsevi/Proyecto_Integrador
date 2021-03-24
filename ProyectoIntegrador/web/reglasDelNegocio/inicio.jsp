@@ -45,14 +45,14 @@
             <br/>
             <div class="container-fluid">
                 <div class="col-4 position-relative">
-                    <div class="position-absolute end-50" style="top: 50px">
+                    <div class="position-absolute end-50" style="top: 50px; text-align: center">
                         <h1 style="font-size: 50px"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16" style="color: green">
                             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>Mision</h1>
                     </div>
                     <div class="position-absolute start-0" style="top: 170px">
                         <div>
-                            <p style="max-height: 50vh">Somos una compañía de base tecnológica y de seguridad de la información,
+                            <p style="max-height: 50vh; text-align: center">Somos una compañía de base tecnológica y de seguridad de la información,
                                 que ayuda a generar valor a sus clientes, apalancando el cumplimiento de
                                 sus objetivos estratégicos mediante el uso de metodologías estructuradas
                                 y adaptables.</p>
@@ -61,12 +61,12 @@
                 </div>
                 <div class="col-9 position-relative">
                     <div class="position-absolute start-50" style="top: 200px">
-                        <h1 style="font-size: 50px"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16" style="color: green">
+                        <h1 style="font-size: 50px; text-align: center"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16" style="color: green">
                             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>Vision</h1>
                     </div>
                     <div class="position-absolute start-50" style="top: 50px">
-                        <p style="max-height: 50vh">Ser reconocidos como una empresa con servicios de calidad, excelencia e integralidad. Ser percibidos
+                        <p style="max-height: 50vh; text-align: center">Ser reconocidos como una empresa con servicios de calidad, excelencia e integralidad. Ser percibidos
                             como un aliado estratégico, a través de la generación de valor y con un alto nivel de satisfacción 
                             de sus clientes, empleados y socios.</p>
                     </div>
