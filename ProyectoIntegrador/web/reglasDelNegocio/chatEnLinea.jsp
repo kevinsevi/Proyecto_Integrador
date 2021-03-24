@@ -13,14 +13,10 @@
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
     </head>
     <body>
-<<<<<<< Updated upstream
+
         <jsp:include page="../template/header.jsp" flush="true"/>
         
-        <script src="bootstrap/js/bootstrap.js" type="text/javascript"/>
-=======
-        
+        <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
 
-
->>>>>>> Stashed changes
     </body>
 </html>
