@@ -19,8 +19,8 @@
                 <li class="page-item disabled">
                     <span class="page-link">Previous</span>
                 </li>
-                <li class="page-item active"><a class="page-link" href="./catalogo.jsp">1</a></li>
-                <li class="page-item"><a class="page-link" href="./catalogoPage2.jsp">2</a></li>
+                <li class="page-item"><a class="page-link" href="./catalogo.jsp">1</a></li>
+                <li class="page-item active"><a class="page-link" href="./catalogoPage2.jsp">2</a></li>
                 <li class="page-item"><a class="page-link" href="./catalogoPage3.jsp">3</a></li>
                 <li class="page-item"><a class="page-link" href="./catalogoPage4.jsp">4</a></li>
                 <li class="page-item"><a class="page-link" href="./catalogoPage5.jsp">5</a></li>
