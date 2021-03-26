@@ -20,23 +20,23 @@
              <h1>PREGUNTAS FRECUENTES</h1>
             <div class="acordeon__item">
                 <input type="radio" name="acordeon" id="item1">
-                <label for="item1" class="acordeon__titulo">PREGUNTA NUMERO 1</label>
-                <p class="acordeon__contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quod dolorem nam iste laudantium doloremque perspiciatis assumenda, corporis minima, eligendi molestiae dolorum facere iure cum excepturi inventore expedita magni dolores.</p>
+                <label for="item1" class="acordeon__titulo">¿Qué tipo de servicios da Fank?</label>
+                <p class="acordeon__contenido"> Nuestra empresa cuenta con la variedad más completa de repuestos para celulares</p>
             </div>
             <div class="acordeon__item">
                 <input type="radio" name="acordeon" id="item2">
-                <label for="item2" class="acordeon__titulo">Título 2</label>
-                <p class="acordeon__contenido">Accusantium et vel ipsam accusamus, quidem. Quisquam, sunt, alias doloribus fugiat accusantium dolores voluptatibus. Facere, enim, voluptatibus. Odio suscipit, possimus laboriosam debitis alias, nemo deleniti eius, recusandae architecto provident sit?</p>
+                <label for="item2" class="acordeon__titulo">¿Los productos que se comercializan cuentan con garantía?</label>
+                <p class="acordeon__contenido"> la calidad de sus productos pues tiene más de 15 años en el mercado y el respaldo de reconocidas marcas a nivel nacional e internacional. La confianza y seguridad que otorga FANK se demuestra a través de nuestra amplia cartera de clientes.</p>
             </div>
             <div class="acordeon__item">
                 <input type="radio" name="acordeon" id="item3">
-                <label for="item3" class="acordeon__titulo">Título 3</label>
-                <p class="acordeon__contenido">Adipisci iure temporibus quae voluptate nemo ipsum aperiam ipsa ratione magni, quibusdam consequatur tempore illo, molestias illum eligendi labore necessitatibus cum minima. Et voluptatibus quos molestias dignissimos, officia minus, maxime.</p>
+                <label for="item3" class="acordeon__titulo">¿Cómo puedo obtener el repuesto que requiero?</label>
+                <p class="acordeon__contenido">Tenemos varios canales de atención, como chat en linia, tambien puedes comunicarte con nosotros por medio de nuestros formularios</p>
             </div>
             <div class="acordeon__item">
                 <input type="radio" name="acordeon" id="item4">
-                <label for="item4" class="acordeon__titulo">Título 4</label>
-                <p class="acordeon__contenido">Quo voluptate deleniti, maiores natus, voluptas veniam, omnis fugit recusandae dignissimos dolores sequi quibusdam explicabo velit eligendi suscipit quod? Totam optio error odit, dicta facere et quae sint natus quaerat.</p>
+                <label for="item4" class="acordeon__titulo">¿Cómo recibo mis repuestos cuando le compro a uno de sus vendedores?</label>
+                <p class="acordeon__contenido">Si realizó compras a través de su representante de venta mayorista bajo condiciones previamente pactadas, se coordina el despacho según destino registrado en nuestro sistema. Si el pedido se realizó desde provincia, la mercadería será remitida a través de su agencia de transporte de su preferencia. El flete y riesgos de transporte serán asumidos por el cliente.</p>
             </div>
         </div>
         <script src="../bootstrap/js/bootstrap.js" type="text/javascript"></script>
