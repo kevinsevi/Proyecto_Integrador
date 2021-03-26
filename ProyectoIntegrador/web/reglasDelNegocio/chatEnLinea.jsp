@@ -11,10 +11,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
+          
     </head>
     <body>
         <jsp:include page="../template/header.jsp" flush="true"/>
         
-        <script src="bootstrap/js/bootstrap.js" type="text/javascript"/>
     </body>
+
 </html>

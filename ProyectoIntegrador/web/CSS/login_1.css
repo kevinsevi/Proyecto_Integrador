@@ -1,0 +1,46 @@
+.from_f{
+    
+    margin-left: 25px;
+    margin-right: 20px;
+    height: 150px;
+    width: 400px;  
+}
+.from_f1{
+    margin-left: 45px;
+     background: rgba(0,0,0,0.2) ;
+     width:  450px ;
+     height: 500px;
+     border-radius: 15px;
+}
+.contenedorf{
+     display:  flex;
+     margin-top: 10px;
+   
+}
+.contenedorf1{
+      display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     margin-left: 20px;
+   
+}
+.contenedorf1 img{
+    margin-left: 50px;
+}
+.boton1{
+ 
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 80px
+}
+.espe1{
+    margin-left: 80px;
+}
+.espe2{
+    margin-left: 10px;
+    margin-right:20px;
+}
+
+
+
+
