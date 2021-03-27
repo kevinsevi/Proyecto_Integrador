@@ -65,7 +65,7 @@
                             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                             </svg>Vision</h1>
                     </div>
-                    <div class="position-absolute start-50" style="top: 50px">
+                    <div class="col-5 position-absolute start-50" style="top: 50px">
                         <p style="max-height: 50vh; text-align: center">Ser reconocidos como una empresa con servicios de calidad, excelencia e integralidad. Ser percibidos
                             como un aliado estratégico, a través de la generación de valor y con un alto nivel de satisfacción 
                             de sus clientes, empleados y socios.</p>
