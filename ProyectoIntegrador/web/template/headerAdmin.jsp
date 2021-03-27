@@ -84,6 +84,7 @@
                                     <li><a class="dropdown-item" href="../reportes/reporteBodega.jsp">Reporte Bodega</a></li>
                                     <li><a class="dropdown-item" href="../reportes/clienteAdmin.jsp">Clientes</a></li>
                                     <li><a class="dropdown-item" href="../reglasDelNegocio/productos.jsp">Productos</a></li>
+                                    <li><a class="dropdown-item" href="../reglasDelNegocio/ChatenlineaOp.jsp">Chat en Linea Operador</a></li>
                                 </ul>
                             </div>
                         </li>
