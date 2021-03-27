@@ -1,15 +1,20 @@
+<%-- 
+    Document   : rusuarios
+    Created on : 26/03/2021, 22:27:58
+    Author     : Usuario
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
+        <link href="../CSS/TabProductos.css" rel="stylesheet"/>
     </head>
     <body>
-        <jsp:include page="../template/header.jsp"/>
+        <jsp:include page="../template/headerAdmin.jsp" flush="true"/>
         <div class="container" style="padding-top: 25px; padding-left: 40px; padding-right: 40px">
             <div class="row">
                 <div class="col">
@@ -67,6 +72,6 @@
     <center>
         <button style="border-radius: 11px; background: brown; color: white;  font-size: 20px">
             📈 REPORTE FINAL</button></center>
-    <script src="../bootstrap/js/bootstrap.js" type="text/javascript"></script>
-</body>
+        <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    </body>
 </html>

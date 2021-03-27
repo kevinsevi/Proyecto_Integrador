@@ -1,7 +1,7 @@
 <%-- 
-    Document   : reporteBodega
-    Created on : 26/03/2021, 23:54:28
-    Author     : Andrea
+    Document   : rusuarios
+    Created on : 26/03/2021, 22:27:58
+    Author     : Usuario
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -10,9 +10,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
+        <link href="../CSS/TabProductos.css" rel="stylesheet"/>
     </head>
     <body>
-        <jsp:include page="../template/header.jsp"/>
+        <jsp:include page="../template/headerAdmin.jsp" flush="true"/>
         <div class="container" style="padding-top: 25px; padding-left: 40px; padding-right: 40px">
             <div class="row">
                 <div class="col">
@@ -31,7 +33,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="excelReporteA.xlsx">
-                                                <input type="hidden"/>EXCEL</th>
+                                                    <input type="hidden"/>EXCEL</a></th>
                                         </tr>
                                     </tbody>
                                 </table></b>
@@ -45,16 +47,16 @@
                             <hr>
                             <td><u>PRODUCTOS</u></td>
                             <th><button style="border-radius: 11px; border-color: darkcyan; font-size: 15px">
-                                        ✔ Abrir</button></th>
+                                    ✔ Abrir</button></th>
                             </tr>
                             <tr>
                                 <td><u>RESPONSABLES</u></td>
-                             <th><button style="border-radius: 11px; border-color: darkcyan; font-size: 15px">
+                                <th><button style="border-radius: 11px; border-color: darkcyan; font-size: 15px">
                                         ✔ Abrir</button></th>
                             </tr>
                             <tr>
                                 <td><u>CÓDIGOS</u></td>
-                               <th><button style="border-radius: 11px; border-color: darkcyan; font-size: 15px">
+                                <th><button style="border-radius: 11px; border-color: darkcyan; font-size: 15px">
                                         ✔ Abrir</button></th>
                             </tr>
                             <tr>
@@ -70,6 +72,6 @@
     <center>
         <button style="border-radius: 11px; background: brown; color: white;  font-size: 20px">
             📈 REPORTE FINAL</button></center>
-    <script src="../bootstrap/js/bootstrap.js" type="text/javascript"></script>
-</body>
+        <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    </body>
 </html>

@@ -14,7 +14,7 @@
         <link href="../CSS/TabProductos.css" rel="stylesheet"/>
     </head>
     <body>
-        <jsp:include page="../template/header.jsp" flush="true"/>
+        <jsp:include page="../template/headerAdmin.jsp" flush="true"/>
         
         <div class="tusu">
         <form class="row g-3 needs-validation" novalidate>

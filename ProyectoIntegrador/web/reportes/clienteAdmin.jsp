@@ -4,20 +4,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet"/>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <script>
-            function checkIt() {
-                alert('¿Desea Activar esta cuenta?');
-            }
-            function times() {
-                alert('¿Desea Inactivar esta cuenta?');
-            }
-        </script>
     </head>
     <body>
-        <jsp:include page="../template/header.jsp"/>
+        <jsp:include page="../template/headerAdmin.jsp" flush="true"/>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent; padding-top: 80px; padding-left: 580px;">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -113,6 +104,14 @@
                     </table></b>
             </div>
         </div>
-        <script src="../bootstrap/js/bootstrap.js" type="text/javascript"></script>
+        <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+        <script>
+                                    function checkIt() {
+                                        alert('¿Desea Activar esta cuenta?');
+                                    }
+                                    function times() {
+                                        alert('¿Desea Inactivar esta cuenta?');
+                                    }
+        </script>
     </body>
 </html>

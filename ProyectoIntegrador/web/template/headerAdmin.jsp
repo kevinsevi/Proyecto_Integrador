@@ -74,33 +74,17 @@
                             <a class="nav-link active" aria-current="page" href="../reglasDelNegocio/chatEnLinea.jsp" style="font-size: 15px">Chat en Linea</a>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Administrador</button>
-
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Inicie Sesion Administrador</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <form>
-                                                <div class="mb-3">
-                                                    <label for="recipient-name" class="col-form-label">Usuario:</label>
-                                                    <input type="text" class="form-control" id="recipient-name">
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label for="message-text" class="col-form-label">Contraseña:</label>
-                                                    <input type="text" class="form-control" id="recipient-name">
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                            <a type="button" href="../reportes/clienteAdmin.jsp" class="btn btn-primary">Inisiar Sesion</a>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="dropdown">
+                                <button class="btn btn-success" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Administrador
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="../reglasDelNegocio/rusuarios.jsp">Registro Usuarios</a></li>
+                                    <li><a class="dropdown-item" href="../reportes/reportesAdmin.jsp">Reporte Administrador</a></li>
+                                    <li><a class="dropdown-item" href="../reportes/reporteBodega.jsp">Reporte Bodega</a></li>
+                                    <li><a class="dropdown-item" href="../reportes/clienteAdmin.jsp">Clientes</a></li>
+                                    <li><a class="dropdown-item" href="../reglasDelNegocio/productos.jsp">Productos</a></li>
+                                </ul>
                             </div>
                         </li>
                     </ul>
